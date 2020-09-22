@@ -10,3 +10,13 @@ C:\Users\MMFH\source\repos\mail_Gonderme\obj\Debug\mail_Gonderme.exe
 C:\Users\MMFH\source\repos\mail_Gonderme\obj\Debug\mail_Gonderme.pdb
 C:\Users\MMFH\source\repos\mail_Gonderme\obj\Debug\mail_Gonderme.Form2.resources
 C:\Users\MMFH\source\repos\mail_Gonderme\obj\Debug\mail_Gonderme.MailForm.resources
+C:\Users\MMFH\Source\Repos\MailGonderici2\mail_Gonderme\bin\Debug\mail_Gonderme.exe.config
+C:\Users\MMFH\Source\Repos\MailGonderici2\mail_Gonderme\bin\Debug\mail_Gonderme.exe
+C:\Users\MMFH\Source\Repos\MailGonderici2\mail_Gonderme\bin\Debug\mail_Gonderme.pdb
+C:\Users\MMFH\Source\Repos\MailGonderici2\mail_Gonderme\obj\Debug\mail_Gonderme.csprojAssemblyReference.cache
+C:\Users\MMFH\Source\Repos\MailGonderici2\mail_Gonderme\obj\Debug\mail_Gonderme.MailForm.resources
+C:\Users\MMFH\Source\Repos\MailGonderici2\mail_Gonderme\obj\Debug\mail_Gonderme.Properties.Resources.resources
+C:\Users\MMFH\Source\Repos\MailGonderici2\mail_Gonderme\obj\Debug\mail_Gonderme.csproj.GenerateResource.cache
+C:\Users\MMFH\Source\Repos\MailGonderici2\mail_Gonderme\obj\Debug\mail_Gonderme.csproj.CoreCompileInputs.cache
+C:\Users\MMFH\Source\Repos\MailGonderici2\mail_Gonderme\obj\Debug\mail_Gonderme.exe
+C:\Users\MMFH\Source\Repos\MailGonderici2\mail_Gonderme\obj\Debug\mail_Gonderme.pdb

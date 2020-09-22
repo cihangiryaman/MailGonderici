@@ -41,6 +41,7 @@
             this.dosyaEklebtn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // MailGonderbtn
@@ -101,6 +102,7 @@
             // 
             // listBox1
             // 
+            this.listBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(332, 75);
             this.listBox1.Name = "listBox1";
@@ -168,11 +170,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(339, 52);
+            this.label1.Location = new System.Drawing.Point(329, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(291, 13);
             this.label1.TabIndex = 12;
             this.label1.Text = "*alıcıyı listeden çıkarmak için alıcıyı seçip sil butonuna tıklayın";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.Window;
+            this.label5.Location = new System.Drawing.Point(559, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(65, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "@gmail.com";
             // 
             // MailForm
             // 
@@ -180,6 +192,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(657, 280);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dosyaEklebtn);
@@ -193,7 +206,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.MailGonderbtn);
             this.Name = "MailForm";
-            this.Text = "mail_gonderme_egitim";
+            this.Text = "Mail gönderme sayfası";
             this.Load += new System.EventHandler(this.mail_gonderme_egitim_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -215,5 +228,6 @@
         private System.Windows.Forms.Button dosyaEklebtn;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label5;
     }
 }

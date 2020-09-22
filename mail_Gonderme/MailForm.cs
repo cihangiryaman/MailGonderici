@@ -21,7 +21,7 @@ namespace mail_Gonderme
 
         private void mail_gonderme_egitim_Load(object sender, EventArgs e)
         {
-            
+         
         }
 
         string dosyaYolu;
@@ -44,7 +44,7 @@ namespace mail_Gonderme
 
                 if (mailAdresiKontrolu_class.MailAdresKontrolu(listboxItems))
                 {
-                    istemci.Credentials = new System.Net.NetworkCredential("e-posta adresinizi buraya yazın", "e-posta şifrenizi buraya yazın");
+                    istemci.Credentials = new System.Net.NetworkCredential("cihanyama.cy@gmail.com", "cihangir12345");
                     istemci.Port = 587;
                     istemci.Host = "smtp.gmail.com";
                     istemci.EnableSsl = true;
@@ -53,7 +53,7 @@ namespace mail_Gonderme
                         mail.To.Add(e_mailAdresi);
                     }
                     mail.IsBodyHtml = true;
-                    mail.From = new MailAddress("e-posta adresinizi buraya yazın");
+                    mail.From = new MailAddress("cihanyama.cy@gmail.com");
                     mail.Subject = textBox2.Text;
                     mail.Body = textBox3.Text;
                     if (dosyaDolu)
